@@ -48,9 +48,7 @@ const Questions = ({
   Time remaining: {timer}
 </p>
 
-        <h4 className="card-text">
-          {questions[currentQuestion].id} {questions[currentQuestion].question}
-        </h4>
+       
         <div className="list-group">
           {questions[currentQuestion].options.map((option, index) => (
             <button
